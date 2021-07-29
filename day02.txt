@@ -1,0 +1,19 @@
+# checking development environment
+# print('Hello, I am Anuj!')
+
+# Assignment2 -  Remove all occurences of an element from a list
+
+elementList = [1,2,2,3,2,4,2,5,2,6]
+print("original list : ",elementList)
+modifiedList = set(elementList)
+print("modified list : ",modifiedList)
+
+# Assignment3 - OTP generator using string and random module
+
+import random as r
+
+leng = 6
+otp = ""
+for i in range(leng):
+    otp += str(r.randint(1,9))
+print ("Your One Time Password for XYZ app verification is ",otp)
