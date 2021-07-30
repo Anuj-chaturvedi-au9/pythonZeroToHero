@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>day01-Assignment</title>
+ <style>
+   table{
+     align="center" border="2" height="200px" width="300px"
+   }
+   .a{
+      color:red;
+      padding : 5px;
+      }
+    table{
+          align-items: center;
+          align: center;
+          border: 5px solid black;
+          height: 200px;
+          width:400px
+          }
+ </style>
+  </head>
+  <body>
+   <table>
+            <caption>Table</caption>
+            <tr>
+                <th class="a">Name</th>
+                <th class="a">Email</th>
+                <th class="a">Image</th>
+            </tr>
+            <tr>
+                <td>Akshay</td>
+                <td>akshay@gmail.com</td>
+                <td><img src="https://images.pexels.com/photos/1148998/pexels-photo-1148998.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" height="40px" width="60px"></td>
+            </tr>
+            <tr>
+                <td>Anuj</td>
+                <td>anuj@gmail.com</td>
+                <td><img src="https://images.pexels.com/photos/1148998/pexels-photo-1148998.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" height="40px" width="60px"></td>
+            </tr>
+            <tr>
+                <td>Parth</td>
+                <td>parth@gmail.com</td>
+                <td><img src="https://images.pexels.com/photos/1148998/pexels-photo-1148998.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" height="40px" width="60px"></td>
+            </tr>
+        </table>
+
+  </body>
+</html>
