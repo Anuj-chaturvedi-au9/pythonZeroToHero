@@ -1,9 +1,15 @@
-#print("hello I am Anuj")
-x = input('list of person : ')
-val = [int(i) for i in x.split()]
-print(val)
+#print("Helllo I am Anuj")
+#Assignment day03
 
-gift_received_from = [2, 1, 4, 5, 3]
 
-for i in range(len(val)):
-  print("Person " + str(val[i])  + " has received gift from Person P" + str(gift_received_from[i]))
+def ispangram(str):
+    alph = "abcdefghijklmnopqrstuvwxyz"
+    for c in alph:
+        if c not in str.lower():
+            return False
+    return True
+string = 'the quick brown fox jumps over the lazy dog'
+if(ispangram(string) == True):
+    print('yes')
+else:
+    print("no")
